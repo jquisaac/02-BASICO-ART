@@ -31,3 +31,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ```
 npm i ngx-socket-io
 ```
+
+### Changelog:
+
+v1.0.0
+* Cliente socket.io
+* Eventos connect
+* Evento disconnect
