@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { WebsocketsService } from './services/websockets.service';
 
 @Component({
@@ -6,16 +6,13 @@ import { WebsocketsService } from './services/websockets.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'basico';
 
-  constructor( public websocketService: WebsocketsService) {
+  constructor( public wsService: WebsocketsService ) {
 
   }
 
-  ngOnInit() {
-
-  }
 
 
 }

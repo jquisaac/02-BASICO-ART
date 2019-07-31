@@ -23,4 +23,12 @@ export class WebsocketsService {
       this.socketStatus = false;
     });
   }
+
+  // tslint:disable-next-line: ban-types
+  emit( evento: string, payload?: any, callback?: Function ) {
+
+    console.log('Emitiendo', evento);
+    console.log('Payload', payload);
+    this.socket.emit( evento, payload, callback);
+  }
 }

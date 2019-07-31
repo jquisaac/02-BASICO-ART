@@ -35,6 +35,9 @@ npm i ngx-socket-io
 ### Changelog:
 
 v1.0.0
-* Cliente socket.io
-* Eventos connect
-* Evento disconnect
+* Cliente socket.io.
+* Eventos connect.
+* Evento disconnect.
+
+v1.0.1
+* Interface envio de mensaje
