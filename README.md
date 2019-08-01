@@ -34,10 +34,15 @@ npm i ngx-socket-io
 
 ### Changelog:
 
+v1.1.0
+* Interface recibir mensajes.
+* Escuchar eventos
+
+v1.0.1
+* Interface envio de mensaje.
+
 v1.0.0
 * Cliente socket.io.
 * Eventos connect.
 * Evento disconnect.
 
-v1.0.1
-* Interface envio de mensaje

@@ -25,10 +25,21 @@ export class WebsocketsService {
   }
 
   // tslint:disable-next-line: ban-types
+  /**
+   * Emite cualquier evento
+   */
   emit( evento: string, payload?: any, callback?: Function ) {
 
     console.log('Emitiendo', evento);
     console.log('Payload', payload);
     this.socket.emit( evento, payload, callback);
   }
+
+  /**
+   * Escucha cualquier evento
+   */
+  listen( evento: string) {
+    return this.socket.fromEvent( evento );
+  }
+
 }
