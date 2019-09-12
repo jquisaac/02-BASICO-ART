@@ -31,6 +31,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ```
 npm i ngx-socket-io
 ```
+## Comentarios:
+```
+El error global is not defined se solventa agregando en polyfills.ts la linea:
+(window as any).global = window;
+```
 
 ### Changelog:
 

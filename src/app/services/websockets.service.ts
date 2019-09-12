@@ -37,6 +37,7 @@ export class WebsocketsService {
 
   /**
    * Escucha cualquier evento
+   * Regresa un observable al que te puedes suscribir
    */
   listen( evento: string) {
     return this.socket.fromEvent( evento );
