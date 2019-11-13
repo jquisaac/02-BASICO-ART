@@ -39,6 +39,12 @@ El error global is not defined se solventa agregando en polyfills.ts la linea:
 
 ### Changelog:
 
+v1.2
+* Login.
+* Logout.
+* Lista de usuarios
+* Envio de mensajes
+
 v1.1.0
 * Interface recibir mensajes.
 * Escuchar eventos
